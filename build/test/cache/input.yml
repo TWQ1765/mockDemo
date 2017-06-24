@@ -60,17 +60,17 @@
   :source: ".c"
   :assembly: ".s"
   :object: ".o"
-  :executable: ".out"
+  :executable: ".exe"
   :map: ".map"
   :list: ".lst"
   :testpass: ".pass"
   :testfail: ".fail"
   :dependencies: ".d"
 :unity:
-  :vendor_path: C:/Student/TWQ/projects/C/TestC/vendor/ceedling/vendor
+  :vendor_path: C:/Student/TWQ/projects/C/mockDemo/vendor/ceedling/vendor
   :defines: []
 :cmock:
-  :vendor_path: C:/Student/TWQ/projects/C/TestC/vendor/ceedling/vendor
+  :vendor_path: C:/Student/TWQ/projects/C/mockDemo/vendor/ceedling/vendor
   :defines: []
   :mock_prefix: mock_
   :when_no_prototypes: :warn
@@ -88,7 +88,7 @@
   :verbosity: 3
   :unity_helper: false
 :cexception:
-  :vendor_path: C:/Student/TWQ/projects/C/TestC/vendor/ceedling/vendor
+  :vendor_path: C:/Student/TWQ/projects/C/mockDemo/vendor/ceedling/vendor
   :defines: []
 :test_runner:
   :includes: []
@@ -181,7 +181,7 @@
   :arguments: []
 :plugins:
   :load_paths:
-  - C:/Student/TWQ/projects/C/TestC/vendor/ceedling/plugins
+  - C:/Student/TWQ/projects/C/mockDemo/vendor/ceedling/plugins
   - vendor/ceedling/plugins
   :enabled:
   - stdout_pretty_tests_report
